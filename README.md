@@ -1,2 +1,2 @@
 # strangegridlayout
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+![](/Screenshot_1554551372.png)
