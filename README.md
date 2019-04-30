@@ -1,2 +1,2 @@
 # strangegridlayout
-![Screenshot](https://user-images.githubusercontent.com/20221469/56943462-3782b200-6b3d-11e9-89bc-e19a52f9c141.png)
+<image src=https://user-images.githubusercontent.com/20221469/56945920-5c2f5780-6b46-11e9-8284-2dd274a0333f.gif>
