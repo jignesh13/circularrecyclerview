@@ -78,6 +78,19 @@ public int getItemViewType(int position)
             setAnimation(holder,position);
         }
    ```     
+***animation change while item present***
+```java
+ protected void setAnimation(RecyclerView.ViewHolder holder, int position) {
+ ///anim_slide_from_bottom file contain animation
+
+            if (this.animatedPosition.contains(Integer.valueOf(position))) {
+                holder.itemView.clearAnimation();
+                return;
+            }
+            holder.itemView.startAnimation(AnimationUtils.loadAnimation(holder.itemView.getContext(), R.anim.anim_slide_from_bottom));
+            this.animatedPosition.add(Integer.valueOf(position));
+        }
+```
 
 ##  Developer
   jignesh khunt
