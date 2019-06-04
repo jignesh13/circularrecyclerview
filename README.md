@@ -5,9 +5,9 @@
 ```java
   RecyclerView recyclerView=findViewById(R.id.recyclerview);
   StaggeredGridLayoutManager staggeredGridLayoutManager=new StaggeredGridLayoutManager(3, StaggeredGridLayoutManager.VERTICAL);
-        recyclerView.setLayoutManager(staggeredGridLayoutManager);
-        recyclerView.setHasFixedSize(true);
-        recyclerView.setAdapter(new MyAdapter());
+  recyclerView.setLayoutManager(staggeredGridLayoutManager);
+  recyclerView.setHasFixedSize(true);
+  recyclerView.setAdapter(new MyAdapter());
 ```
 
 
