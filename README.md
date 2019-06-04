@@ -9,7 +9,7 @@
   recyclerView.setHasFixedSize(true);
   recyclerView.setAdapter(new MyAdapter());
 ```
-***recyclerview adapter implementation
+***recyclerview adapter implementation***
 ```java
 public int getItemViewType(int position)
         {
