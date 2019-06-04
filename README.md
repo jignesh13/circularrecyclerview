@@ -3,25 +3,11 @@
 
 ***control in your code***
 ```java
-// you can change Theme in your code By this simple line :
-// enum values (Themes.DefaultTheme, Themes.LightTheme, Themes.DarkTheme)
-mFlatClock.setTheme(Themes.DarkTheme);
-
-// set your custom time (hh:mm:ss)
-mFlatClock.setTime(5, 30, 0);
-mFlatClock.setTime("1:00:40");
-
-// Listener to be called every second
-mFlatClock.setOnClockTick(new OnClockTick() {
-            @Override
-            public void onTick() {
-                // TODO do something evry second.
-            }
-        });
-
-/*
- * and also see setHourIndicatorColor(), getSecIndicatorColor(), getBigMarkColor(), setWithBackground() .......
- **/
+  RecyclerView recyclerView=findViewById(R.id.recyclerview);
+        StaggeredGridLayoutManager staggeredGridLayoutManager=new StaggeredGridLayoutManager(3, StaggeredGridLayoutManager.VERTICAL);
+        recyclerView.setLayoutManager(staggeredGridLayoutManager);
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setAdapter(new MyAdapter());
 ```
 
 
